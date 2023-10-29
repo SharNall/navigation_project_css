@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.navbar{
+background-color: black;
+top: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.navbar list{
+    float: right;
+}
+a{
+    text-transform: capitalize;
+}
+.list ul{
+    list-style-type:none ;
+}
+.list ul li{
+    margin-top: 7px;
+    float: right;
+}
+.list ul a{
+    text-decoration: none;
+    color: white;
+    margin-right: 16px;
+}
+.logo img{
+    width: 50%;
+    margin-top: 7px;
+
+    }
+
+.logo {
+    float: left;        
+}
+.portfolio{
+    padding-top: 20px;
+    background-color:white;
+    text-align: center;
+}
+.portfolio p{
+    margin-bottom: 20px ;
+}
+.portfolio-iteam {
+    float: left;
+    width: 33.3%;
+    padding-right: 30px;
+}
+.portfolio-iteam img{
+    background-color:white;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+
+}
+.portfolio-iteam h3{
+    margin-top: 10px;
+
+}
